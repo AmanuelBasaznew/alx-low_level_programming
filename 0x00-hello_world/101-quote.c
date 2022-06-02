@@ -1,8 +1,7 @@
 #include <unistd.h>
 
 /**
- *
- *function main: Serves as an entry point
+ *main - Serves as an entry point
  *
  *Description: Printing a quote using the write function
  
@@ -18,4 +17,3 @@ int main(void)
 	write(1, quo, 59);
 	return (1);
 }
-
