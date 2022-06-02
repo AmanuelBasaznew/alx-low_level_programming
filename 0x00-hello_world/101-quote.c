@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /*
- *main - Entry point
+ *main: Serves as an entry point
  *
  *Description: Printing a quote using the write function
  *ssize_t write(int fd, const void *buf, size_t count);
