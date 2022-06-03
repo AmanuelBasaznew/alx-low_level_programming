@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Using the putchar function to print out lower and uppercase alphabets.
+ * Description: Using while loop for alphabet print
  *
  * Return: Always 0 (Success)
  */
@@ -25,6 +25,6 @@ int main(void)
 		++CH;
 	}
 	putchar('\n');
-
+	
 	return (0);
 }
