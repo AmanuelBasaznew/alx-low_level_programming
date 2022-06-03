@@ -9,8 +9,17 @@
  */
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	putchar(alphabet);
+	char alphabet = 'a';
+	
+	char alphabets = 'A';
+	while (ch <= 'Z')
+	{
+		putchar(alphabet);
+		putchar(alphabets);
+		++alphabet
+		++alphabets
+	}
 	putchar('\n');
+
 	return (0);
 }
