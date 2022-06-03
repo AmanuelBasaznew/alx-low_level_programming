@@ -7,7 +7,7 @@
  *
  * Description: If else statement is used to give different printf results depending on whether the number is positive, negative or zero.
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
