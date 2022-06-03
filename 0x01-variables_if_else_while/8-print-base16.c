@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int linked(void)
+int main(void)
 {
 	int digit = 48;
 
