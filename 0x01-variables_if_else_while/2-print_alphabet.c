@@ -9,9 +9,13 @@
  */
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-
-	putchar(alpha);
+	char ch = "a";
+	while (ch<=z)
+	{
+		putchar(ch);
+		++ch;
+	}
 	putchar('\n');
+
 	return (0);
 }
