@@ -10,6 +10,7 @@
 int main(void)
 {
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+
 	putchar(alpha);
 	putchar('\n');
 	return (0);
