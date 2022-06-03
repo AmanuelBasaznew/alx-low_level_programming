@@ -9,15 +9,20 @@
  */
 int main(void)
 {
-	char alphabet = 'a';
+	char ch = 'a';
 	
-	char alphabets = 'A';
-	while (alphabets <= 'Z')
+	char CH = 'A';
+	/*prints a - z*/
+	while (ch <= 'z')
 	{
-		putchar(alphabet);
-		putchar(alphabets);
-		++alphabet
-		++alphabets
+		putchar(ch);
+		++ch;
+	}
+	/*prints A - Z*/
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		++CH;
 	}
 	putchar('\n');
 
