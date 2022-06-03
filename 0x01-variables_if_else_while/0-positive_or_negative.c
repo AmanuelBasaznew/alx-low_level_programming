@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: Using the printf function and if else statement to print whether n is positive, negative or neither.
+ * Description: Print n as positive, negative or zero
  *
  * Return: Always 0 (Success)
  */
