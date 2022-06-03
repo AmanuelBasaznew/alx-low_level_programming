@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -15,8 +15,9 @@ int main(void)
 	while (digit <= 102)
 	{
 		putchar(digit);
+
 		if (digit == 57)
-			digit +39;
+			digit += 39;
 		++digit;
 	}
 	putchar('\n');
