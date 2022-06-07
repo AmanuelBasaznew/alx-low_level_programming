@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * print n to 98 counts
+ * print_to_98: returns all numbers until 98
+ *
+ * @n: start of the return
+ *
+ * Return: 0 or 1
  */
 
 void print_to_98(int n)
