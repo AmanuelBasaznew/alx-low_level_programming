@@ -3,7 +3,7 @@
 /**
  * jack_bauer - returns the time for a day in mins
  *
- * Return: 0 or 1 
+ * Return: 0 or 1
  */
 
 void jack_bauer(void)
@@ -18,7 +18,7 @@ void jack_bauer(void)
 			_putchar((hr % 10) + 48);
 			_putchar(':');
 			_putchar((min / 10) + 48);
-			_putchar((min % 10 ) + 48);
+			_putchar((min % 10) + 48);
 			_putchar('\n');
 		}
 	}
