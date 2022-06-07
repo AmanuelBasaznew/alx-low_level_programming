@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Description: Function that prints out the alphabet
+ * print_alphabet - Function that prints out
+ *            the lower case alphabets
  */
 
 void print_alphabet(void)
@@ -9,7 +10,7 @@ void print_alphabet(void)
 	int ch;
 	
 	for (ch = 'a'; ch <= 'z'; ++ch)
-		_putchar(ch);
+	_putchar(ch);
 	_putchar('\n');
 }
 
