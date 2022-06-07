@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * Description: Check for alhapbetic character
- * Return 1 if c is a letter, lower or upper
+ * _isalpha - checks if a character isboth lower and uppercase
+ *
+ * @c: takes input from other functions
+ * 
+ * Reurn: 1 is c if true else 0
  */
 
 int _isalpha(int c)
