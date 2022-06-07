@@ -6,7 +6,7 @@
  * @n: is the number whose absolute is calculated
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 		n = (-1) * n;
