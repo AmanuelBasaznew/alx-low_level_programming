@@ -18,6 +18,7 @@ int main(void)
 		r = a + b;
 		a = b;
 		b = r;
+
 		printf(", %0.f", r);
 	}
 	putchar('\n');
