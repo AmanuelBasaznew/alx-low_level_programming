@@ -14,7 +14,7 @@ int main(void)
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%f", next);
+		printf("%.0f", next);
 
 		if (i < 97)
 			printf(", ");
