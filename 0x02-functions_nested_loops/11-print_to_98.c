@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_to_98: returns all numbers until 98
+ * print_to_98 - returns all numbers until 98
  *
  * @n: start of the return
  *
