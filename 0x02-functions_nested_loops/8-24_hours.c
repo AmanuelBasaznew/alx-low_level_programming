@@ -1,7 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * Description: Print minutes for Jack Bauer day
+ * jack_bauer - returns the time for a day in mins
+ *
+ * Return: 0 or 1 
  */
 
 void jack_bauer(void)
@@ -10,7 +12,7 @@ void jack_bauer(void)
 
 	for (hr = 0; hr <= 23; ++hr)
 	{
-		for (min = 0; min <=59; ++min)
+		for (min = 0; min <= 59; ++min)
 		{
 			_putchar((hr / 10) + 48);
 			_putchar((hr % 10) + 48);
