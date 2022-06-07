@@ -4,6 +4,7 @@
  * times_table - Returns the 9 times multiplication table
  *
  * Return: 0 or 1
+ */
 
 void times_table(void)
 {
