@@ -5,6 +5,8 @@
  *
  * Description: Print the alphabet ten times
  *
+ * print_alphabet_x10 - prints the alphabet ten times
+ *
  * Return: 0
  */
 
