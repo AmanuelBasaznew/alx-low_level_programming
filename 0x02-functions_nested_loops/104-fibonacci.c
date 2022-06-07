@@ -7,21 +7,18 @@
 int main(void)
 {
 	int i = 0;
-	unsigned long int a, b, next;
+	float a, b, r;
 	a = 1;
 	b = 2;
-	next = 0;
+	r = 0;
 
-	while (i < 98)
+	printf("1, 2");
+	for (i = 1; i <= 96; i++)
 	{
-		next = a + b;
+		r = a + b;
 		a = b;
-		b = next;
-		printf("%lu", next);
-
-		if (i < 97)
-			printf(", ");
-		i++;
+		b = r;
+		printf(", %0.f", r);
 	}
 	putchar('\n');
 	return (0);
