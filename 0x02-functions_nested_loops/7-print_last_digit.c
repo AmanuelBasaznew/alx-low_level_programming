@@ -8,7 +8,7 @@
  * Return: 0 or 1
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int lastDigit;
 	if (n < 0)
