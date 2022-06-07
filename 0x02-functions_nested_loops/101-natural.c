@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main segment
- * Description: computes and prints the sum of 
- * all multiples of 3 and 5 below 1024 (excluded)
+ * Description: computes and prints the sum of
+ *all multiples of 3 and 5 below 1024 (excluded)
  * Return: 0
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (c % 3 == 0 || c % 5 == 0)
 		{
-			sum +=c;
+			sum += c;
 		}
 		c++;
 	}
