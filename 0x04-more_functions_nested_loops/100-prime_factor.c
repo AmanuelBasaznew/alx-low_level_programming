@@ -24,5 +24,6 @@ int main(void)
 	{
 		max = n;
 	}
-	return max;
+	printf("%lu \n", max);
+	return (0);
 }
