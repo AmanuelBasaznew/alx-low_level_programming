@@ -2,26 +2,24 @@
 /**
  * more_numbers - prints from 1 - 14 ten times
  *
- * Return: void 
+ * Return: 0
  */
 void more_numbers(void)
 {
-	char n, c;
-	int i = 0;
+	int num, row, count;
 
-	while (i < 10)
+	for(row = 1; row <= 10; ++row)
 	{
-		for (n = 9; n <= 14; n++)
+		for (count = 0; count <= 14; ++count)
 		{
-			c = n;
-			if (n > 9)
+			num = count;
+			if (count > 9)
 			{
-				_putchar('1');
-				c = n % 10;
+				_putchar(1 + 48);
+				num = count % 10;
 			}
-			_putchar('0' + c);
+			_putchar(num + 48);
 		}
 		_putchar('\n');
-		i++
 	}
 }
