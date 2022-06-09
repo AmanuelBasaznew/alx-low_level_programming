@@ -21,8 +21,7 @@ double _sqrt(double x)
 /**
  * largest_prime_factor - finds and prints the largest
  *                      prime factor of a number (num)
- * @n: number to find largest prime factor for
- * 
+ * @num: number to find largest prime factor for
  */
 void largest_prime_factor(long int num)
 {
