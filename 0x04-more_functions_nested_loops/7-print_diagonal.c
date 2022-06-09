@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - prints lines diagonally based on n
+ * @n: numer of diagonals to be printed
  * Return: void
  */
 void print_diagonal(int n)
@@ -13,6 +14,5 @@ void print_diagonal(int n)
 			_putchar('\n');
 		}
 	}
-	else
-		_putchar('\n');
+	_putchar('\n');
 }
